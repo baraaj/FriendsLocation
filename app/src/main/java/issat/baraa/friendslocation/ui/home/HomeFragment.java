@@ -73,7 +73,8 @@ public class HomeFragment extends Fragment {
         @Override
         protected Object doInBackground(Object[] objects) {
             JSONParser parser = new JSONParser();//pour executer le fichier php
-            String ip ="192.168.4.36";
+            //String ip ="192.168.4.36";
+            String ip ="192.168.43.247";
             /**
              * avd:10.0.2.2
              * LAN:ipv4:192.168

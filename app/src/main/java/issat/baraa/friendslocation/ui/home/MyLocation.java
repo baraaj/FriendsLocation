@@ -44,4 +44,13 @@ public class MyLocation {
     public void setLatitude(String latitude) {
         this.latitude = latitude;
     }
+    @Override
+    public String toString() {
+        return "MyLocation{" +
+                "nom='" + nom + '\'' +
+                ", numero='" + numero + '\'' +
+                ", longitude='" + longitude + '\'' +
+                ", latitude='" + latitude + '\'' +
+                '}';
+    }
 }
